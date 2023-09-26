@@ -1,0 +1,102 @@
+/* This is the style.css file */
+
+body {
+    /* Add a background image */
+    background-image: url("615459-really-cute-backgrounds-1920x1200-laptop.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 40px;
+    margin-top: 80px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #f8bbd0; /* Add a border */
+    border-radius: 15px; /* Make the border corners rounded */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add a shadow effect */
+}
+
+.image-container p {
+    height: 100%;
+    width: 300px;
+    border: 2px solid #f8bbd0; /* Add a border */
+    border-radius: 20px; /* Make the border corners rounded */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add a shadow effect */
+    padding: 9px; /* Add space inside the container */
+    margin: 20px;
+}
+
+  audio {
+    display: block;
+    margin: 20px auto;
+    margin-top: 30px;
+  }
+  
+  /* Style the modal element */
+  .modal {
+    display: none; /* Hide by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Style the modal content element */
+  .modal-content {
+    background-color: pink;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    width: fit-content; /* Fit to content */
+  }
+  
+  /* Style the close button element */
+  .close {
+     color: white;
+     float: right;
+     font-size: large;
+  }
+  
+  /* Style the message element */
+  .message {
+     font-family: "Comic Sans MS", cursive, sans-serif;
+     font-size: large;
+     color: white;
+     text-align: center;
+     text-shadow: none; 
+  }
+
+   p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+   }
